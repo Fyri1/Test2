@@ -218,12 +218,3 @@
 2025-04-01 16:18:59.216 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
 2025-04-01 16:18:59.216 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
 2025-04-01 16:18:59.228 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 18:06:26.984 [p=21084, t=0x3c6c] CUAServer::SendInvalidQCToPartner - On Deactivate send invalid QCs to partner
-2025-04-01 18:06:26.986 [p=21084, t=0x5288] General: ProjectEvent: 4
-2025-04-01 18:06:26.986 [p=21084, t=0x5288] General: Start deactivating the project...
-2025-04-01 18:06:27.025 [p=21084, t=0x5288] General: Project deactivated
-2025-04-01 18:06:48.407 [p=21084, t=0x5288] General: ProjectEvent: 2
-2025-04-01 18:06:48.407 [p=21084, t=0x5288] General: Start closing the project...
-2025-04-01 18:06:48.407 [p=21084, t=0x5288] General: Start deactivating the project...
-2025-04-01 18:06:48.407 [p=21084, t=0x5288] CUAServer::DisconnectLicenseServices
-2025-04-01 18:06:48.662 [p=21084, t=0x5288] General: Disconnecting configuration.
