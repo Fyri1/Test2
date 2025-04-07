@@ -311,3 +311,34 @@
 2025-04-07 11:15:37.156 [p=6252, t=0x2824] General: Start deactivating the project...
 2025-04-07 11:15:37.158 [p=6252, t=0x2824] CUAServer::DisconnectLicenseServices
 2025-04-07 11:15:37.421 [p=6252, t=0x2824] General: Disconnecting configuration.
+2025-04-07 15:28:13.965 [p=17040, t=0x4950] General: Project opened, dsncs="CC_HMI_1CAO_25_04_04_09_49_53" path="\\DESKTOP-H3RO2C4\WinCC_Project_HMI_1CAO\HMI_1CAO.mcp"
+2025-04-07 15:28:13.989 [p=17040, t=0x4950] Sync: No redundant partner configured
+2025-04-07 15:28:13.990 [p=17040, t=0x4950] Sync: Loading redundancy configuration
+2025-04-07 15:28:14.022 [p=17040, t=0x4950] Sync: Redundancy is not activated
+2025-04-07 15:28:14.028 [p=17040, t=0x4950] General: Disconnecting configuration.
+2025-04-07 15:28:14.029 [p=17040, t=0x4950] General: Connecting configuration.
+2025-04-07 15:28:14.150 [p=17040, t=0x4950] General: Connecting to runtime database "CC_HMI_1CAO_25_04_04_09_49_53R" on instance "DESKTOP-H3RO2C4\WINCC"
+2025-04-07 15:28:14.163 [p=17040, t=0x4950] General: Checking and upgrading archive table schemas
+2025-04-07 15:28:14.165 [p=17040, t=0x4950] General: Archive table schemas are up to date now
+2025-04-07 15:28:14.166 [p=17040, t=0x4950] General: Checking and upgrading metadata table schemas
+2025-04-07 15:28:14.172 [p=17040, t=0x4950] General: Metadata table schemas are up to date now
+2025-04-07 15:28:14.571 [p=17040, t=0x4950] CUAServer::ConnectLicenseServices
+2025-04-07 15:28:14.572 [p=17040, t=0x4950] CUAServer::DisconnectLicenseServices
+2025-04-07 15:28:14.576 [p=17040, t=0x4950] CoCreateInstance of CCLicense.CCLicense.1 succeeded.
+2025-04-07 15:28:14.577 [p=17040, t=0x4950] CreateInstance of CLicenseTimerThread succeeded.
+2025-04-07 15:28:14.607 [p=17040, t=0x4950] General: Project activate
+2025-04-07 15:28:14.607 [p=17040, t=0x4950] General: Start deactivating the project...
+2025-04-07 15:28:14.609 [p=17040, t=0x4950] Sync: Loading redundancy configuration
+2025-04-07 15:28:14.613 [p=17040, t=0x4950] Sync: Redundancy is not activated
+2025-04-07 15:28:17.153 [p=17040, t=0x3818] General: ProjectEvent: 3
+2025-04-07 15:28:19.594 [p=17040, t=0x49c0] CUAServer::OnLicenseCheck (first call).
+2025-04-07 15:28:19.597 [p=17040, t=0x49c0] OnLicenseCheck: number of archives = 0.
+2025-04-07 17:52:41.429 [p=17040, t=0x61f4] CUAServer::SendInvalidQCToPartner - On Deactivate send invalid QCs to partner
+2025-04-07 17:52:41.445 [p=17040, t=0x3818] General: ProjectEvent: 4
+2025-04-07 17:52:41.447 [p=17040, t=0x3818] General: Start deactivating the project...
+2025-04-07 17:52:41.474 [p=17040, t=0x3818] General: Project deactivated
+2025-04-07 17:53:08.581 [p=17040, t=0x3818] General: ProjectEvent: 2
+2025-04-07 17:53:08.588 [p=17040, t=0x3818] General: Start closing the project...
+2025-04-07 17:53:08.590 [p=17040, t=0x3818] General: Start deactivating the project...
+2025-04-07 17:53:08.593 [p=17040, t=0x3818] CUAServer::DisconnectLicenseServices
+2025-04-07 17:53:08.882 [p=17040, t=0x3818] General: Disconnecting configuration.
