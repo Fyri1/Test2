@@ -1,468 +1,403 @@
-2025-04-01 10:02:48.840 [p=21084, t=0x5274] General: Project opened, dsncs="CC_HMI_1CAO_25_04_01_10_01_36" path="\\DESKTOP-H3RO2C4\WinCC_Project_HMI_1CAO\HMI_1CAO.mcp"
-2025-04-01 10:02:48.862 [p=21084, t=0x5274] Sync: No redundant partner configured
-2025-04-01 10:02:48.864 [p=21084, t=0x5274] Sync: Loading redundancy configuration
-2025-04-01 10:02:48.893 [p=21084, t=0x5274] Sync: Redundancy is not activated
-2025-04-01 10:02:48.907 [p=21084, t=0x5274] General: Disconnecting configuration.
-2025-04-01 10:02:48.909 [p=21084, t=0x5274] General: Connecting configuration.
-2025-04-01 10:02:49.015 [p=21084, t=0x5274] General: Connecting to runtime database "CC_HMI_1CAO_25_04_01_10_01_36R" on instance "DESKTOP-H3RO2C4\WINCC"
-2025-04-01 10:02:49.029 [p=21084, t=0x5274] General: Checking and upgrading archive table schemas
-2025-04-01 10:02:49.030 [p=21084, t=0x5274] General: Archive table schemas are up to date now
-2025-04-01 10:02:49.031 [p=21084, t=0x5274] General: Checking and upgrading metadata table schemas
-2025-04-01 10:02:49.038 [p=21084, t=0x5274] General: Metadata table schemas are up to date now
-2025-04-01 10:02:49.398 [p=21084, t=0x5274] CUAServer::ConnectLicenseServices
-2025-04-01 10:02:49.400 [p=21084, t=0x5274] CUAServer::DisconnectLicenseServices
-2025-04-01 10:02:49.404 [p=21084, t=0x5274] CoCreateInstance of CCLicense.CCLicense.1 succeeded.
-2025-04-01 10:02:49.406 [p=21084, t=0x5274] CreateInstance of CLicenseTimerThread succeeded.
-2025-04-01 10:02:49.439 [p=21084, t=0x5274] General: Project activate
-2025-04-01 10:02:49.440 [p=21084, t=0x5274] General: Start deactivating the project...
-2025-04-01 10:02:49.442 [p=21084, t=0x5274] Sync: Loading redundancy configuration
-2025-04-01 10:02:49.449 [p=21084, t=0x5274] Sync: Redundancy is not activated
-2025-04-01 10:02:52.841 [p=21084, t=0x5288] General: ProjectEvent: 3
-2025-04-01 10:02:54.408 [p=21084, t=0x53bc] CUAServer::OnLicenseCheck (first call).
-2025-04-01 10:02:54.410 [p=21084, t=0x53bc] OnLicenseCheck: number of archives = 0.
-2025-04-01 10:02:58.944 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 10:02:58.945 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 10:02:58.950 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 10:05:04.240 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 10:05:04.242 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 10:05:04.246 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 10:05:09.263 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 10:05:09.264 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 10:05:09.269 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 10:05:14.293 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 10:05:14.296 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 10:05:14.302 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 10:05:19.319 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 10:05:19.320 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 10:05:19.325 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 10:05:24.353 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 10:05:24.359 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 10:05:24.362 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 10:05:29.388 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 10:05:29.390 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 10:05:29.395 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 10:05:34.425 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 10:05:34.435 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 10:05:34.477 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 10:05:39.494 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 10:05:39.495 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 10:05:39.499 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 10:05:44.516 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 10:05:44.517 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 10:05:44.523 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 10:05:54.545 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 10:05:54.546 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 10:05:54.551 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 10:05:59.566 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 10:05:59.567 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 10:05:59.571 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 10:06:04.590 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 10:06:04.592 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 10:06:04.596 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 10:06:09.626 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 10:06:09.627 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 10:06:09.631 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 10:06:14.662 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 10:06:14.664 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 10:06:14.668 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 10:06:24.702 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 10:06:24.704 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 10:06:24.708 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 10:06:59.798 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 10:06:59.798 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 10:06:59.803 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 10:07:04.821 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 10:07:04.821 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 10:07:04.828 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 10:07:09.848 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 10:07:09.849 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 10:07:09.853 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 10:07:29.902 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 10:07:29.903 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 10:07:29.909 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 10:07:34.936 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 10:07:34.938 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 10:07:34.941 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 10:07:39.966 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 10:07:39.967 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 10:07:39.972 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 10:07:44.996 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 10:07:44.998 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 10:07:45.003 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 10:07:50.031 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 10:07:50.032 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 10:07:50.037 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 10:11:55.647 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 10:11:55.649 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 10:11:55.654 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 10:12:00.684 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 10:12:00.685 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 10:12:00.689 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 10:12:05.713 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 10:12:05.714 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 10:12:05.719 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 10:12:10.747 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 10:12:10.750 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 10:12:10.754 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 10:12:15.778 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 10:12:15.780 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 10:12:15.785 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 10:12:20.815 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 10:12:20.817 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 10:12:20.822 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 10:12:45.933 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 10:12:45.935 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 10:12:45.938 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 10:12:50.962 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 10:12:50.963 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 10:12:50.968 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 10:13:01.008 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 10:13:01.010 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 10:13:01.014 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 10:13:41.135 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 10:13:41.137 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 10:13:41.140 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 11:03:59.048 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 11:03:59.049 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 11:03:59.057 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 11:04:04.092 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 11:04:04.094 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 11:04:04.100 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 11:04:09.128 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 11:04:09.129 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 11:04:09.133 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 11:04:19.187 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 11:04:19.189 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 11:04:19.193 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 11:04:34.269 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 11:04:34.273 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 11:04:34.308 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 11:04:44.352 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 11:04:44.355 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 11:04:44.362 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 11:04:49.394 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 11:04:49.397 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 11:04:49.434 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 11:04:54.452 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 11:04:54.454 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 11:04:54.458 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 11:04:59.480 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 11:04:59.481 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 11:04:59.486 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 11:05:04.500 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 11:05:04.501 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 11:05:04.505 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 12:42:00.467 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 12:42:00.468 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 12:42:00.479 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 12:42:05.511 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 12:42:05.513 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 12:42:05.519 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 12:42:10.690 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 12:42:10.692 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 12:42:10.700 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 12:42:15.732 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 12:42:15.733 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 12:42:15.741 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 12:42:20.765 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 12:42:20.767 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 12:42:20.773 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 12:42:25.826 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 12:42:25.828 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 12:42:25.843 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 12:42:35.863 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 12:42:35.864 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 12:42:35.869 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 12:42:45.903 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 12:42:45.904 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 12:42:45.909 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 12:42:50.947 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 12:42:50.956 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 12:42:50.989 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 12:42:56.129 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 12:42:56.131 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 12:42:56.145 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 12:43:01.180 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 12:43:01.180 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 12:43:01.186 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 12:43:06.211 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 12:43:06.212 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 12:43:06.216 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 12:43:16.295 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 12:43:16.326 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 12:43:16.351 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 12:43:21.395 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 12:43:21.396 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 12:43:21.403 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 12:43:26.425 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 12:43:26.426 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 12:43:26.432 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 12:43:31.459 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 12:43:31.459 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 12:43:31.465 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 12:57:04.367 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 12:57:04.368 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 12:57:04.615 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 14:05:07.570 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 14:05:07.577 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 14:05:07.868 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 14:12:07.230 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 14:12:07.230 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 14:12:07.234 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 15:00:25.469 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 15:00:25.469 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 15:00:25.476 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 16:15:38.024 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 16:15:38.024 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 16:15:38.033 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-01 16:18:59.216 [p=21084, t=0x52f8] Sync: Redundancy configuration file changed
-2025-04-01 16:18:59.216 [p=21084, t=0x52f8] Sync: Loading redundancy configuration
-2025-04-01 16:18:59.228 [p=21084, t=0x52f8] Sync: Redundancy is not activated
-2025-04-04 15:53:25.910 [p=22452, t=0x1a90] General: Project opened, dsncs="CC_HMI_1CAO_25_04_04_09_49_53" path="\\DESKTOP-H3RO2C4\WinCC_Project_HMI_1CAO\HMI_1CAO.mcp"
-2025-04-04 15:53:25.935 [p=22452, t=0x1a90] Sync: No redundant partner configured
-2025-04-04 15:53:25.936 [p=22452, t=0x1a90] Sync: Loading redundancy configuration
-2025-04-04 15:53:25.966 [p=22452, t=0x1a90] Sync: Redundancy is not activated
-2025-04-04 15:53:25.983 [p=22452, t=0x1a90] General: Disconnecting configuration.
-2025-04-04 15:53:25.984 [p=22452, t=0x1a90] General: Connecting configuration.
-2025-04-04 15:53:26.106 [p=22452, t=0x1a90] General: Connecting to runtime database "CC_HMI_1CAO_25_04_04_09_49_53R" on instance "DESKTOP-H3RO2C4\WINCC"
-2025-04-04 15:53:26.118 [p=22452, t=0x1a90] General: Checking and upgrading archive table schemas
-2025-04-04 15:53:26.120 [p=22452, t=0x1a90] General: Archive table schemas are up to date now
-2025-04-04 15:53:26.121 [p=22452, t=0x1a90] General: Checking and upgrading metadata table schemas
-2025-04-04 15:53:26.127 [p=22452, t=0x1a90] General: Metadata table schemas are up to date now
-2025-04-04 15:53:26.517 [p=22452, t=0x1a90] CUAServer::ConnectLicenseServices
-2025-04-04 15:53:26.519 [p=22452, t=0x1a90] CUAServer::DisconnectLicenseServices
-2025-04-04 15:53:26.522 [p=22452, t=0x1a90] CoCreateInstance of CCLicense.CCLicense.1 succeeded.
-2025-04-04 15:53:26.524 [p=22452, t=0x1a90] CreateInstance of CLicenseTimerThread succeeded.
-2025-04-04 15:53:26.558 [p=22452, t=0x1a90] General: Project activate
-2025-04-04 15:53:26.559 [p=22452, t=0x1a90] General: Start deactivating the project...
-2025-04-04 15:53:26.560 [p=22452, t=0x1a90] Sync: Loading redundancy configuration
-2025-04-04 15:53:26.565 [p=22452, t=0x1a90] Sync: Redundancy is not activated
-2025-04-04 15:53:30.479 [p=22452, t=0x35b0] General: ProjectEvent: 3
-2025-04-04 15:53:31.529 [p=22452, t=0x0388] CUAServer::OnLicenseCheck (first call).
-2025-04-04 15:53:31.530 [p=22452, t=0x0388] OnLicenseCheck: number of archives = 0.
-2025-04-04 15:54:40.082 [p=22452, t=0x35b0] General: ProjectEvent: 4
-2025-04-04 15:54:40.102 [p=22452, t=0x35b0] General: Start deactivating the project...
-2025-04-04 15:54:40.105 [p=22452, t=0x0cf0] CUAServer::SendInvalidQCToPartner - On Deactivate send invalid QCs to partner
-2025-04-04 15:54:40.125 [p=22452, t=0x35b0] General: Project deactivated
-2025-04-04 15:55:04.156 [p=22452, t=0x35b0] General: ProjectEvent: 2
-2025-04-04 15:55:04.159 [p=22452, t=0x35b0] General: Start closing the project...
-2025-04-04 15:55:04.161 [p=22452, t=0x35b0] General: Start deactivating the project...
-2025-04-04 15:55:04.170 [p=22452, t=0x35b0] CUAServer::DisconnectLicenseServices
-2025-04-04 15:55:04.430 [p=22452, t=0x35b0] General: Disconnecting configuration.
-2025-04-04 16:44:07.605 [p=1908, t=0x2cf4] General: Project opened, dsncs="CC_HMI_1CAO_25_04_04_09_49_53" path="\\DESKTOP-H3RO2C4\WinCC_Project_HMI_1CAO\HMI_1CAO.mcp"
-2025-04-04 16:44:07.626 [p=1908, t=0x2cf4] Sync: No redundant partner configured
-2025-04-04 16:44:07.627 [p=1908, t=0x2cf4] Sync: Loading redundancy configuration
-2025-04-04 16:44:07.656 [p=1908, t=0x2cf4] Sync: Redundancy is not activated
-2025-04-04 16:44:07.671 [p=1908, t=0x2cf4] General: Disconnecting configuration.
-2025-04-04 16:44:07.672 [p=1908, t=0x2cf4] General: Connecting configuration.
-2025-04-04 16:44:07.779 [p=1908, t=0x2cf4] General: Connecting to runtime database "CC_HMI_1CAO_25_04_04_09_49_53R" on instance "DESKTOP-H3RO2C4\WINCC"
-2025-04-04 16:44:07.792 [p=1908, t=0x2cf4] General: Checking and upgrading archive table schemas
-2025-04-04 16:44:07.793 [p=1908, t=0x2cf4] General: Archive table schemas are up to date now
-2025-04-04 16:44:07.794 [p=1908, t=0x2cf4] General: Checking and upgrading metadata table schemas
-2025-04-04 16:44:07.802 [p=1908, t=0x2cf4] General: Metadata table schemas are up to date now
-2025-04-04 16:44:08.186 [p=1908, t=0x2cf4] CUAServer::ConnectLicenseServices
-2025-04-04 16:44:08.187 [p=1908, t=0x2cf4] CUAServer::DisconnectLicenseServices
-2025-04-04 16:44:08.191 [p=1908, t=0x2cf4] CoCreateInstance of CCLicense.CCLicense.1 succeeded.
-2025-04-04 16:44:08.193 [p=1908, t=0x2cf4] CreateInstance of CLicenseTimerThread succeeded.
-2025-04-04 16:44:08.224 [p=1908, t=0x2cf4] General: Project activate
-2025-04-04 16:44:08.226 [p=1908, t=0x2cf4] General: Start deactivating the project...
-2025-04-04 16:44:08.227 [p=1908, t=0x2cf4] Sync: Loading redundancy configuration
-2025-04-04 16:44:08.232 [p=1908, t=0x2cf4] Sync: Redundancy is not activated
-2025-04-04 16:44:10.295 [p=1908, t=0x4910] General: ProjectEvent: 3
-2025-04-04 16:44:13.195 [p=1908, t=0x3ed4] CUAServer::OnLicenseCheck (first call).
-2025-04-04 16:44:13.197 [p=1908, t=0x3ed4] OnLicenseCheck: number of archives = 0.
-2025-04-04 16:51:02.658 [p=1908, t=0x540c] CUAServer::SendInvalidQCToPartner - On Deactivate send invalid QCs to partner
-2025-04-04 16:51:02.677 [p=1908, t=0x4910] General: ProjectEvent: 4
-2025-04-04 16:51:02.685 [p=1908, t=0x4910] General: Start deactivating the project...
-2025-04-04 16:51:02.712 [p=1908, t=0x4910] General: Project deactivated
-2025-04-04 16:51:22.936 [p=1908, t=0x4910] General: ProjectEvent: 2
-2025-04-04 16:51:22.939 [p=1908, t=0x4910] General: Start closing the project...
-2025-04-04 16:51:22.943 [p=1908, t=0x4910] General: Start deactivating the project...
-2025-04-04 16:51:22.947 [p=1908, t=0x4910] CUAServer::DisconnectLicenseServices
-2025-04-04 16:51:23.211 [p=1908, t=0x4910] General: Disconnecting configuration.
-2025-04-07 09:43:19.670 [p=6252, t=0x4754] General: Project opened, dsncs="CC_HMI_1CAO_25_04_04_09_49_53" path="C:\Users\Veslo\Documents\Automation\Test2\IM\HMI\R\2\d\HMI_1CAO\HMI_1CAO.mcp"
-2025-04-07 09:43:19.703 [p=6252, t=0x4754] Sync: No redundant partner configured
-2025-04-07 09:43:19.705 [p=6252, t=0x4754] Sync: Loading redundancy configuration
-2025-04-07 09:43:19.750 [p=6252, t=0x4754] Sync: Redundancy is not activated
-2025-04-07 09:43:19.768 [p=6252, t=0x4754] General: Disconnecting configuration.
-2025-04-07 09:43:19.768 [p=6252, t=0x4754] General: Connecting configuration.
-2025-04-07 09:43:19.926 [p=6252, t=0x4754] General: Connecting to runtime database "CC_HMI_1CAO_25_04_04_09_49_53R" on instance "DESKTOP-H3RO2C4\WINCC"
-2025-04-07 09:43:19.942 [p=6252, t=0x4754] General: Checking and upgrading archive table schemas
-2025-04-07 09:43:19.944 [p=6252, t=0x4754] General: Archive table schemas are up to date now
-2025-04-07 09:43:19.944 [p=6252, t=0x4754] General: Checking and upgrading metadata table schemas
-2025-04-07 09:43:19.954 [p=6252, t=0x4754] General: Metadata table schemas are up to date now
-2025-04-07 09:43:20.404 [p=6252, t=0x4754] CUAServer::ConnectLicenseServices
-2025-04-07 09:43:20.405 [p=6252, t=0x4754] CUAServer::DisconnectLicenseServices
-2025-04-07 09:43:20.412 [p=6252, t=0x4754] CoCreateInstance of CCLicense.CCLicense.1 succeeded.
-2025-04-07 09:43:20.413 [p=6252, t=0x4754] CreateInstance of CLicenseTimerThread succeeded.
-2025-04-07 09:43:20.451 [p=6252, t=0x4754] General: Project activate
-2025-04-07 09:43:20.452 [p=6252, t=0x4754] General: Start deactivating the project...
-2025-04-07 09:43:20.453 [p=6252, t=0x4754] Sync: Loading redundancy configuration
-2025-04-07 09:43:20.458 [p=6252, t=0x4754] Sync: Redundancy is not activated
-2025-04-07 09:43:24.338 [p=6252, t=0x2824] General: ProjectEvent: 3
-2025-04-07 09:43:25.423 [p=6252, t=0x4244] CUAServer::OnLicenseCheck (first call).
-2025-04-07 09:43:25.424 [p=6252, t=0x4244] OnLicenseCheck: number of archives = 0.
-2025-04-07 11:15:16.559 [p=6252, t=0x2824] General: ProjectEvent: 4
-2025-04-07 11:15:16.561 [p=6252, t=0x2824] General: Start deactivating the project...
-2025-04-07 11:15:16.562 [p=6252, t=0x1a7c] CUAServer::SendInvalidQCToPartner - On Deactivate send invalid QCs to partner
-2025-04-07 11:15:16.589 [p=6252, t=0x2824] General: Project deactivated
-2025-04-07 11:15:37.153 [p=6252, t=0x2824] General: ProjectEvent: 2
-2025-04-07 11:15:37.155 [p=6252, t=0x2824] General: Start closing the project...
-2025-04-07 11:15:37.156 [p=6252, t=0x2824] General: Start deactivating the project...
-2025-04-07 11:15:37.158 [p=6252, t=0x2824] CUAServer::DisconnectLicenseServices
-2025-04-07 11:15:37.421 [p=6252, t=0x2824] General: Disconnecting configuration.
-2025-04-07 15:28:13.965 [p=17040, t=0x4950] General: Project opened, dsncs="CC_HMI_1CAO_25_04_04_09_49_53" path="\\DESKTOP-H3RO2C4\WinCC_Project_HMI_1CAO\HMI_1CAO.mcp"
-2025-04-07 15:28:13.989 [p=17040, t=0x4950] Sync: No redundant partner configured
-2025-04-07 15:28:13.990 [p=17040, t=0x4950] Sync: Loading redundancy configuration
-2025-04-07 15:28:14.022 [p=17040, t=0x4950] Sync: Redundancy is not activated
-2025-04-07 15:28:14.028 [p=17040, t=0x4950] General: Disconnecting configuration.
-2025-04-07 15:28:14.029 [p=17040, t=0x4950] General: Connecting configuration.
-2025-04-07 15:28:14.150 [p=17040, t=0x4950] General: Connecting to runtime database "CC_HMI_1CAO_25_04_04_09_49_53R" on instance "DESKTOP-H3RO2C4\WINCC"
-2025-04-07 15:28:14.163 [p=17040, t=0x4950] General: Checking and upgrading archive table schemas
-2025-04-07 15:28:14.165 [p=17040, t=0x4950] General: Archive table schemas are up to date now
-2025-04-07 15:28:14.166 [p=17040, t=0x4950] General: Checking and upgrading metadata table schemas
-2025-04-07 15:28:14.172 [p=17040, t=0x4950] General: Metadata table schemas are up to date now
-2025-04-07 15:28:14.571 [p=17040, t=0x4950] CUAServer::ConnectLicenseServices
-2025-04-07 15:28:14.572 [p=17040, t=0x4950] CUAServer::DisconnectLicenseServices
-2025-04-07 15:28:14.576 [p=17040, t=0x4950] CoCreateInstance of CCLicense.CCLicense.1 succeeded.
-2025-04-07 15:28:14.577 [p=17040, t=0x4950] CreateInstance of CLicenseTimerThread succeeded.
-2025-04-07 15:28:14.607 [p=17040, t=0x4950] General: Project activate
-2025-04-07 15:28:14.607 [p=17040, t=0x4950] General: Start deactivating the project...
-2025-04-07 15:28:14.609 [p=17040, t=0x4950] Sync: Loading redundancy configuration
-2025-04-07 15:28:14.613 [p=17040, t=0x4950] Sync: Redundancy is not activated
-2025-04-07 15:28:17.153 [p=17040, t=0x3818] General: ProjectEvent: 3
-2025-04-07 15:28:19.594 [p=17040, t=0x49c0] CUAServer::OnLicenseCheck (first call).
-2025-04-07 15:28:19.597 [p=17040, t=0x49c0] OnLicenseCheck: number of archives = 0.
-2025-04-07 17:52:41.429 [p=17040, t=0x61f4] CUAServer::SendInvalidQCToPartner - On Deactivate send invalid QCs to partner
-2025-04-07 17:52:41.445 [p=17040, t=0x3818] General: ProjectEvent: 4
-2025-04-07 17:52:41.447 [p=17040, t=0x3818] General: Start deactivating the project...
-2025-04-07 17:52:41.474 [p=17040, t=0x3818] General: Project deactivated
-2025-04-07 17:53:08.581 [p=17040, t=0x3818] General: ProjectEvent: 2
-2025-04-07 17:53:08.588 [p=17040, t=0x3818] General: Start closing the project...
-2025-04-07 17:53:08.590 [p=17040, t=0x3818] General: Start deactivating the project...
-2025-04-07 17:53:08.593 [p=17040, t=0x3818] CUAServer::DisconnectLicenseServices
-2025-04-07 17:53:08.882 [p=17040, t=0x3818] General: Disconnecting configuration.
-2025-04-08 09:39:20.585 [p=25260, t=0x5f88] General: Project opened, dsncs="CC_HMI_1CAO_25_04_04_09_49_53" path="C:\Users\Veslo\Documents\Automation\Test2\IM\HMI\R\2\d\HMI_1CAO\HMI_1CAO.mcp"
-2025-04-08 09:39:20.607 [p=25260, t=0x5f88] Sync: No redundant partner configured
-2025-04-08 09:39:20.607 [p=25260, t=0x5f88] Sync: Loading redundancy configuration
-2025-04-08 09:39:20.634 [p=25260, t=0x5f88] Sync: Redundancy is not activated
-2025-04-08 09:39:20.646 [p=25260, t=0x5f88] General: Disconnecting configuration.
-2025-04-08 09:39:20.648 [p=25260, t=0x5f88] General: Connecting configuration.
-2025-04-08 09:39:20.765 [p=25260, t=0x5f88] General: Connecting to runtime database "CC_HMI_1CAO_25_04_04_09_49_53R" on instance "DESKTOP-H3RO2C4\WINCC"
-2025-04-08 09:39:20.775 [p=25260, t=0x5f88] General: Checking and upgrading archive table schemas
-2025-04-08 09:39:20.776 [p=25260, t=0x5f88] General: Archive table schemas are up to date now
-2025-04-08 09:39:20.777 [p=25260, t=0x5f88] General: Checking and upgrading metadata table schemas
-2025-04-08 09:39:20.782 [p=25260, t=0x5f88] General: Metadata table schemas are up to date now
-2025-04-08 09:39:21.137 [p=25260, t=0x5f88] CUAServer::ConnectLicenseServices
-2025-04-08 09:39:21.138 [p=25260, t=0x5f88] CUAServer::DisconnectLicenseServices
-2025-04-08 09:39:21.142 [p=25260, t=0x5f88] CoCreateInstance of CCLicense.CCLicense.1 succeeded.
-2025-04-08 09:39:21.142 [p=25260, t=0x5f88] CreateInstance of CLicenseTimerThread succeeded.
-2025-04-08 09:39:21.178 [p=25260, t=0x5f88] General: Project activate
-2025-04-08 09:39:21.178 [p=25260, t=0x5f88] General: Start deactivating the project...
-2025-04-08 09:39:21.180 [p=25260, t=0x5f88] Sync: Loading redundancy configuration
-2025-04-08 09:39:21.184 [p=25260, t=0x5f88] Sync: Redundancy is not activated
-2025-04-08 09:39:25.253 [p=25260, t=0x26a8] General: ProjectEvent: 3
-2025-04-08 09:39:26.153 [p=25260, t=0x1960] CUAServer::OnLicenseCheck (first call).
-2025-04-08 09:39:26.155 [p=25260, t=0x1960] OnLicenseCheck: number of archives = 0.
-2025-04-08 10:18:34.330 [p=25260, t=0x26a8] General: ProjectEvent: 4
-2025-04-08 10:18:34.332 [p=25260, t=0x26a8] General: Start deactivating the project...
-2025-04-08 10:18:34.334 [p=25260, t=0x5e98] CUAServer::SendInvalidQCToPartner - On Deactivate send invalid QCs to partner
-2025-04-08 10:18:34.357 [p=25260, t=0x26a8] General: Project deactivated
-2025-04-08 10:18:55.117 [p=25260, t=0x26a8] General: ProjectEvent: 2
-2025-04-08 10:18:55.119 [p=25260, t=0x26a8] General: Start closing the project...
-2025-04-08 10:18:55.121 [p=25260, t=0x26a8] General: Start deactivating the project...
-2025-04-08 10:18:55.122 [p=25260, t=0x26a8] CUAServer::DisconnectLicenseServices
-2025-04-08 10:18:55.393 [p=25260, t=0x26a8] General: Disconnecting configuration.
-2025-04-08 10:23:10.753 [p=8108, t=0x266c] General: Project opened, dsncs="CC_HMI_1CAO_25_04_04_09_49_53" path="C:\Users\Veslo\Documents\Automation\Test2\IM\HMI\R\2\d\HMI_1CAO\HMI_1CAO.mcp"
-2025-04-08 10:23:10.771 [p=8108, t=0x266c] Sync: No redundant partner configured
-2025-04-08 10:23:10.773 [p=8108, t=0x266c] Sync: Loading redundancy configuration
-2025-04-08 10:23:10.804 [p=8108, t=0x266c] Sync: Redundancy is not activated
-2025-04-08 10:23:10.807 [p=8108, t=0x266c] General: Disconnecting configuration.
-2025-04-08 10:23:10.807 [p=8108, t=0x266c] General: Connecting configuration.
-2025-04-08 10:23:10.959 [p=8108, t=0x266c] General: Connecting to runtime database "CC_HMI_1CAO_25_04_04_09_49_53R" on instance "DESKTOP-H3RO2C4\WINCC"
-2025-04-08 10:23:10.975 [p=8108, t=0x266c] General: Checking and upgrading archive table schemas
-2025-04-08 10:23:10.976 [p=8108, t=0x266c] General: Archive table schemas are up to date now
-2025-04-08 10:23:10.977 [p=8108, t=0x266c] General: Checking and upgrading metadata table schemas
-2025-04-08 10:23:10.984 [p=8108, t=0x266c] General: Metadata table schemas are up to date now
-2025-04-08 10:23:11.407 [p=8108, t=0x266c] CUAServer::ConnectLicenseServices
-2025-04-08 10:23:11.407 [p=8108, t=0x266c] CUAServer::DisconnectLicenseServices
-2025-04-08 10:23:11.412 [p=8108, t=0x266c] CoCreateInstance of CCLicense.CCLicense.1 succeeded.
-2025-04-08 10:23:11.412 [p=8108, t=0x266c] CreateInstance of CLicenseTimerThread succeeded.
-2025-04-08 10:23:11.447 [p=8108, t=0x266c] General: Project activate
-2025-04-08 10:23:11.447 [p=8108, t=0x266c] General: Start deactivating the project...
-2025-04-08 10:23:11.449 [p=8108, t=0x266c] Sync: Loading redundancy configuration
-2025-04-08 10:23:11.452 [p=8108, t=0x266c] Sync: Redundancy is not activated
-2025-04-08 10:23:13.592 [p=8108, t=0x378c] General: ProjectEvent: 3
-2025-04-08 10:23:16.418 [p=8108, t=0x06a4] CUAServer::OnLicenseCheck (first call).
-2025-04-08 10:23:16.419 [p=8108, t=0x06a4] OnLicenseCheck: number of archives = 0.
-2025-04-08 10:44:52.772 [p=8108, t=0x378c] General: ProjectEvent: 4
-2025-04-08 10:44:52.775 [p=8108, t=0x378c] General: Start deactivating the project...
-2025-04-08 10:44:52.775 [p=8108, t=0x4de0] CUAServer::SendInvalidQCToPartner - On Deactivate send invalid QCs to partner
-2025-04-08 10:44:52.798 [p=8108, t=0x378c] General: Project deactivated
-2025-04-08 10:45:13.136 [p=8108, t=0x378c] General: ProjectEvent: 2
-2025-04-08 10:45:13.138 [p=8108, t=0x378c] General: Start closing the project...
-2025-04-08 10:45:13.140 [p=8108, t=0x378c] General: Start deactivating the project...
-2025-04-08 10:45:13.141 [p=8108, t=0x378c] CUAServer::DisconnectLicenseServices
-2025-04-08 10:45:13.396 [p=8108, t=0x378c] General: Disconnecting configuration.
-2025-04-08 11:33:06.043 [p=15692, t=0x1a44] General: Project opened, dsncs="CC_HMI_1CAO_25_04_04_09_49_53" path="C:\Users\Veslo\Documents\Automation\Test2\IM\HMI\R\2\d\HMI_1CAO\HMI_1CAO.mcp"
-2025-04-08 11:33:06.068 [p=15692, t=0x1a44] Sync: No redundant partner configured
-2025-04-08 11:33:06.069 [p=15692, t=0x1a44] Sync: Loading redundancy configuration
-2025-04-08 11:33:06.136 [p=15692, t=0x1a44] Sync: Redundancy is not activated
-2025-04-08 11:33:06.189 [p=15692, t=0x1a44] General: Disconnecting configuration.
-2025-04-08 11:33:06.189 [p=15692, t=0x1a44] General: Connecting configuration.
-2025-04-08 11:33:06.456 [p=15692, t=0x1a44] General: Connecting to runtime database "CC_HMI_1CAO_25_04_04_09_49_53R" on instance "DESKTOP-H3RO2C4\WINCC"
-2025-04-08 11:33:06.469 [p=15692, t=0x1a44] General: Checking and upgrading archive table schemas
-2025-04-08 11:33:06.471 [p=15692, t=0x1a44] General: Archive table schemas are up to date now
-2025-04-08 11:33:06.471 [p=15692, t=0x1a44] General: Checking and upgrading metadata table schemas
-2025-04-08 11:33:06.479 [p=15692, t=0x1a44] General: Metadata table schemas are up to date now
-2025-04-08 11:33:06.905 [p=15692, t=0x1a44] CUAServer::ConnectLicenseServices
-2025-04-08 11:33:06.905 [p=15692, t=0x1a44] CUAServer::DisconnectLicenseServices
-2025-04-08 11:33:06.910 [p=15692, t=0x1a44] CoCreateInstance of CCLicense.CCLicense.1 succeeded.
-2025-04-08 11:33:06.911 [p=15692, t=0x1a44] CreateInstance of CLicenseTimerThread succeeded.
-2025-04-08 11:33:06.952 [p=15692, t=0x1a44] General: Project activate
-2025-04-08 11:33:06.954 [p=15692, t=0x1a44] General: Start deactivating the project...
-2025-04-08 11:33:06.955 [p=15692, t=0x1a44] Sync: Loading redundancy configuration
-2025-04-08 11:33:06.959 [p=15692, t=0x1a44] Sync: Redundancy is not activated
-2025-04-08 11:33:11.412 [p=15692, t=0x62e0] General: ProjectEvent: 3
-2025-04-08 11:33:11.927 [p=15692, t=0x0518] CUAServer::OnLicenseCheck (first call).
-2025-04-08 11:33:11.927 [p=15692, t=0x0518] OnLicenseCheck: number of archives = 0.
-2025-04-08 14:34:56.127 [p=15692, t=0x62e0] General: ProjectEvent: 4
-2025-04-08 14:34:56.130 [p=15692, t=0x62e0] General: Start deactivating the project...
-2025-04-08 14:34:56.131 [p=15692, t=0x1510] CUAServer::SendInvalidQCToPartner - On Deactivate send invalid QCs to partner
-2025-04-08 14:34:56.155 [p=15692, t=0x62e0] General: Project deactivated
-2025-04-08 14:35:17.734 [p=15692, t=0x62e0] General: ProjectEvent: 2
-2025-04-08 14:35:17.737 [p=15692, t=0x62e0] General: Start closing the project...
-2025-04-08 14:35:17.737 [p=15692, t=0x62e0] General: Start deactivating the project...
-2025-04-08 14:35:17.739 [p=15692, t=0x62e0] CUAServer::DisconnectLicenseServices
-2025-04-08 14:35:17.998 [p=15692, t=0x62e0] General: Disconnecting configuration.
-2025-04-09 10:31:05.822 [p=18060, t=0x46a8] General: Project opened, dsncs="CC_HMI_1CAO_25_04_04_09_49_53" path="C:\Users\Veslo\Documents\Automation\Test2\IM\HMI\R\2\d\HMI_1CAO\HMI_1CAO.mcp"
-2025-04-09 10:31:05.843 [p=18060, t=0x46a8] Sync: No redundant partner configured
-2025-04-09 10:31:05.844 [p=18060, t=0x46a8] Sync: Loading redundancy configuration
-2025-04-09 10:31:05.876 [p=18060, t=0x46a8] Sync: Redundancy is not activated
-2025-04-09 10:31:05.893 [p=18060, t=0x46a8] General: Disconnecting configuration.
-2025-04-09 10:31:05.893 [p=18060, t=0x46a8] General: Connecting configuration.
-2025-04-09 10:31:06.161 [p=18060, t=0x46a8] General: Connecting to runtime database "CC_HMI_1CAO_25_04_04_09_49_53R" on instance "DESKTOP-H3RO2C4\WINCC"
-2025-04-09 10:31:06.172 [p=18060, t=0x46a8] General: Checking and upgrading archive table schemas
-2025-04-09 10:31:06.173 [p=18060, t=0x46a8] General: Archive table schemas are up to date now
-2025-04-09 10:31:06.174 [p=18060, t=0x46a8] General: Checking and upgrading metadata table schemas
-2025-04-09 10:31:06.180 [p=18060, t=0x46a8] General: Metadata table schemas are up to date now
-2025-04-09 10:31:06.665 [p=18060, t=0x46a8] CUAServer::ConnectLicenseServices
-2025-04-09 10:31:06.667 [p=18060, t=0x46a8] CUAServer::DisconnectLicenseServices
-2025-04-09 10:31:06.670 [p=18060, t=0x46a8] CoCreateInstance of CCLicense.CCLicense.1 succeeded.
-2025-04-09 10:31:06.672 [p=18060, t=0x46a8] CreateInstance of CLicenseTimerThread succeeded.
-2025-04-09 10:31:06.722 [p=18060, t=0x46a8] General: Project activate
-2025-04-09 10:31:06.723 [p=18060, t=0x46a8] General: Start deactivating the project...
-2025-04-09 10:31:06.724 [p=18060, t=0x46a8] Sync: Loading redundancy configuration
-2025-04-09 10:31:06.728 [p=18060, t=0x46a8] Sync: Redundancy is not activated
-2025-04-09 10:31:11.673 [p=18060, t=0x47d0] CUAServer::OnLicenseCheck (first call).
-2025-04-09 10:31:11.674 [p=18060, t=0x47d0] OnLicenseCheck: number of archives = 0.
-2025-04-09 10:31:13.030 [p=18060, t=0x46bc] General: ProjectEvent: 3
-2025-04-09 17:44:56.825 [p=18060, t=0x1014] CUAServer::SendInvalidQCToPartner - On Deactivate send invalid QCs to partner
-2025-04-09 17:44:56.829 [p=18060, t=0x46bc] General: ProjectEvent: 4
-2025-04-09 17:44:56.833 [p=18060, t=0x46bc] General: Start deactivating the project...
-2025-04-09 17:44:56.859 [p=18060, t=0x46bc] General: Project deactivated
-2025-04-09 17:45:18.359 [p=18060, t=0x46bc] General: ProjectEvent: 2
-2025-04-09 17:45:18.361 [p=18060, t=0x46bc] General: Start closing the project...
-2025-04-09 17:45:18.363 [p=18060, t=0x46bc] General: Start deactivating the project...
-2025-04-09 17:45:18.364 [p=18060, t=0x46bc] CUAServer::DisconnectLicenseServices
-2025-04-09 17:45:18.627 [p=18060, t=0x46bc] General: Disconnecting configuration.
+2025-04-10 10:47:14.221 [p=22736, t=0x5a0c] General: Project opened, dsncs="CC_HMI_1CAO_25_04_10_10_45_11" path="\\DESKTOP-H3RO2C4\WinCC_Project_HMI_1CAO\HMI_1CAO.mcp"
+2025-04-10 10:47:14.244 [p=22736, t=0x5a0c] Sync: No redundant partner configured
+2025-04-10 10:47:14.246 [p=22736, t=0x5a0c] Sync: Loading redundancy configuration
+2025-04-10 10:47:14.275 [p=22736, t=0x5a0c] Sync: Redundancy is not activated
+2025-04-10 10:47:14.289 [p=22736, t=0x5a0c] General: Disconnecting configuration.
+2025-04-10 10:47:14.291 [p=22736, t=0x5a0c] General: Connecting configuration.
+2025-04-10 10:47:14.416 [p=22736, t=0x5a0c] General: Connecting to runtime database "CC_HMI_1CAO_25_04_10_10_45_11R" on instance "DESKTOP-H3RO2C4\WINCC"
+2025-04-10 10:47:14.427 [p=22736, t=0x5a0c] General: Checking and upgrading archive table schemas
+2025-04-10 10:47:14.429 [p=22736, t=0x5a0c] General: Archive table schemas are up to date now
+2025-04-10 10:47:14.430 [p=22736, t=0x5a0c] General: Checking and upgrading metadata table schemas
+2025-04-10 10:47:14.436 [p=22736, t=0x5a0c] General: Metadata table schemas are up to date now
+2025-04-10 10:47:14.797 [p=22736, t=0x5a0c] CUAServer::ConnectLicenseServices
+2025-04-10 10:47:14.799 [p=22736, t=0x5a0c] CUAServer::DisconnectLicenseServices
+2025-04-10 10:47:14.803 [p=22736, t=0x5a0c] CoCreateInstance of CCLicense.CCLicense.1 succeeded.
+2025-04-10 10:47:14.804 [p=22736, t=0x5a0c] CreateInstance of CLicenseTimerThread succeeded.
+2025-04-10 10:47:14.841 [p=22736, t=0x5a0c] General: Project activate
+2025-04-10 10:47:14.843 [p=22736, t=0x5a0c] General: Start deactivating the project...
+2025-04-10 10:47:14.844 [p=22736, t=0x5a0c] Sync: Loading redundancy configuration
+2025-04-10 10:47:14.849 [p=22736, t=0x5a0c] Sync: Redundancy is not activated
+2025-04-10 10:47:19.809 [p=22736, t=0x2390] CUAServer::OnLicenseCheck (first call).
+2025-04-10 10:47:19.812 [p=22736, t=0x2390] OnLicenseCheck: number of archives = 0.
+2025-04-10 10:47:22.503 [p=22736, t=0x6470] General: ProjectEvent: 3
+2025-04-10 11:06:49.942 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:06:49.942 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:06:49.950 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:10:15.464 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:10:15.466 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:10:15.505 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:10:20.529 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:10:20.530 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:10:20.535 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:10:25.565 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:10:25.567 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:10:25.572 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:10:30.629 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:10:30.631 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:10:30.637 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:10:35.674 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:10:35.675 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:10:35.680 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:10:40.709 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:10:40.710 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:10:40.715 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:10:45.736 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:10:45.737 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:10:45.742 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:10:55.816 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:10:55.818 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:10:55.824 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:11:05.851 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:11:05.853 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:11:05.858 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:11:10.924 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:11:10.926 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:11:10.932 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:11:15.955 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:11:15.957 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:11:15.961 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:11:21.008 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:11:21.009 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:11:21.015 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:12:06.140 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:12:06.141 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:12:06.153 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:12:11.175 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:12:11.176 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:12:11.181 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:12:16.203 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:12:16.204 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:12:16.209 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:12:21.233 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:12:21.234 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:12:21.238 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:12:26.294 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:12:26.296 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:12:26.301 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:12:31.330 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:12:31.332 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:12:31.336 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:12:46.404 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:12:46.406 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:12:46.412 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:12:51.433 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:12:51.435 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:12:51.439 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:12:56.465 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:12:56.467 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:12:56.473 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:13:01.490 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:13:01.491 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:13:01.496 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:13:06.535 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:13:06.537 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:13:06.542 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:13:11.568 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:13:11.568 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:13:11.574 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:13:21.625 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:13:21.628 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:13:21.635 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:13:26.655 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:13:26.658 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:13:26.664 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:13:36.727 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:13:36.734 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:13:36.745 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:13:41.774 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:13:41.775 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:13:41.779 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:13:46.799 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:13:46.799 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:13:46.805 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:13:51.828 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:13:51.829 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:13:51.834 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:13:56.849 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:13:56.850 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:13:56.854 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:14:01.881 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:14:01.883 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:14:01.888 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:14:06.903 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:14:06.904 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:14:06.910 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:14:11.928 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:14:11.929 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:14:11.934 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:14:16.960 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:14:16.961 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:14:16.965 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:14:22.000 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:14:22.001 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:14:22.005 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:14:27.030 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:14:27.030 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:14:27.036 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:14:42.099 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:14:42.103 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:14:42.162 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:14:47.216 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:14:47.218 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:14:47.223 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:18:18.128 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:18:18.129 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:18:18.134 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:18:23.155 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:18:23.156 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:18:23.162 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:19:03.326 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:19:03.327 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:19:03.331 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:19:13.376 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:19:13.377 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:19:13.383 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:19:23.408 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:19:23.410 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:19:23.415 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:19:28.441 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:19:28.441 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:19:28.446 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:19:33.463 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:19:33.466 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:19:33.472 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:19:38.502 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:19:38.503 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:19:38.509 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:19:48.567 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:19:48.569 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:19:48.578 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:22:04.035 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:22:04.036 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:22:04.041 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:22:39.255 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:22:39.257 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:22:39.262 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:23:14.374 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:23:14.375 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:23:14.385 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:23:19.399 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:23:19.407 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:23:19.434 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:23:29.474 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:23:29.477 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:23:29.481 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:24:29.630 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:24:29.633 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:24:29.646 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:24:54.726 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:24:54.728 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:24:54.732 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:25:54.873 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:25:54.874 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:25:54.879 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:25:59.895 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:25:59.897 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:25:59.901 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:26:20.043 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:26:20.043 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:26:20.049 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:26:25.076 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:26:25.077 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:26:25.081 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:26:35.110 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:26:35.110 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:26:35.116 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:26:45.142 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:26:45.143 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:26:45.161 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:26:50.190 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:26:50.192 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:26:50.208 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:27:00.245 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:27:00.247 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:27:00.251 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:27:05.277 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:27:05.278 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:27:05.283 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:44:58.060 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:44:58.061 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:44:58.069 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 11:45:08.113 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 11:45:08.115 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 11:45:08.121 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 14:39:02.270 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 14:39:02.275 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 14:39:02.286 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 14:58:15.515 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 14:58:15.515 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 14:58:15.521 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 15:02:06.278 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 15:02:06.278 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 15:02:06.284 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 15:11:38.350 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 15:11:38.350 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 15:11:38.355 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 15:11:53.426 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 15:11:53.426 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 15:11:53.432 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 15:12:58.658 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 15:12:58.658 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 15:12:58.663 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 15:14:28.883 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 15:14:28.883 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 15:14:28.888 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 15:14:43.920 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 15:14:43.920 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 15:14:43.924 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 15:15:14.044 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 15:15:14.045 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 15:15:14.054 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 15:15:19.071 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 15:15:19.071 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 15:15:19.078 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 15:15:29.101 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 15:15:29.101 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 15:15:29.108 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 15:16:59.286 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 15:16:59.286 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 15:16:59.292 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 15:17:04.306 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 15:17:04.306 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 15:17:04.309 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 15:17:19.355 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 15:17:19.355 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 15:17:19.362 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 15:19:29.626 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 15:19:29.626 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 15:19:29.631 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 15:19:34.654 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 15:19:34.654 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 15:19:34.657 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 15:20:49.816 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 15:20:49.816 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 15:20:49.824 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 15:20:54.842 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 15:20:54.842 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 15:20:54.847 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 15:21:04.883 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 15:21:04.883 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 15:21:04.887 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 15:22:15.169 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 15:22:15.170 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 15:22:15.177 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 15:22:25.255 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 15:22:25.255 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 15:22:25.258 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 15:23:15.377 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 15:23:15.377 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 15:23:15.381 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 15:30:16.236 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 15:30:16.236 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 15:30:16.242 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 15:30:26.266 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 15:30:26.266 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 15:30:26.270 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 15:30:56.359 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 15:30:56.359 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 15:30:56.364 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 15:31:01.389 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 15:31:01.390 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 15:31:01.393 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 15:36:37.203 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 15:36:37.203 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 15:36:37.209 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 15:36:42.246 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 15:36:42.246 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 15:36:42.253 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 15:36:47.279 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 15:36:47.279 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 15:36:47.283 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 15:37:02.320 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 15:37:02.320 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 15:37:02.323 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 15:56:25.426 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 15:56:25.426 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 15:56:25.432 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 15:57:05.529 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 15:57:05.529 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 15:57:05.539 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 16:26:01.035 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 16:26:01.036 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 16:26:01.043 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 16:26:06.058 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 16:26:06.058 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 16:26:06.064 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 16:26:36.111 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 16:26:36.111 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 16:26:36.114 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 16:26:51.163 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 16:26:51.163 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 16:26:51.168 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 16:27:01.202 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 16:27:01.202 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 16:27:01.206 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 16:36:27.676 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 16:36:27.676 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 16:36:27.680 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 16:36:37.829 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 16:36:37.829 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 16:36:37.837 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 16:36:52.874 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 16:36:52.874 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 16:36:52.878 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 16:37:02.916 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 16:37:02.916 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 16:37:02.920 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 16:37:08.047 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 16:37:08.047 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 16:37:08.063 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 16:38:43.246 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 16:38:43.246 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 16:38:43.251 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 16:38:53.280 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 16:38:53.280 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 16:38:53.286 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 16:39:23.357 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 16:39:23.357 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 16:39:23.362 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 16:41:38.656 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 16:41:38.656 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 16:41:38.661 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 16:42:13.761 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 16:42:13.761 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 16:42:13.766 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 16:42:23.783 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 16:42:23.783 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 16:42:23.786 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 16:42:28.809 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 16:42:28.809 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 16:42:28.813 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 16:42:33.837 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 16:42:33.837 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 16:42:33.840 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 16:42:38.870 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 16:42:38.870 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 16:42:38.874 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 16:43:08.942 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 16:43:08.942 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 16:43:08.947 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 16:43:13.970 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 16:43:13.970 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 16:43:13.973 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 16:45:34.261 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 16:45:34.261 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 16:45:34.265 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 16:45:39.291 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 16:45:39.291 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 16:45:39.294 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 16:51:10.079 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 16:51:10.080 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 16:51:10.091 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 16:52:35.322 [p=22736, t=0x5cdc] Sync: Redundancy configuration file changed
+2025-04-10 16:52:35.323 [p=22736, t=0x5cdc] Sync: Loading redundancy configuration
+2025-04-10 16:52:35.327 [p=22736, t=0x5cdc] Sync: Redundancy is not activated
+2025-04-10 16:53:33.619 [p=22736, t=0x1f68] CUAServer::SendInvalidQCToPartner - On Deactivate send invalid QCs to partner
+2025-04-10 16:53:33.621 [p=22736, t=0x6470] General: ProjectEvent: 4
+2025-04-10 16:53:33.621 [p=22736, t=0x6470] General: Start deactivating the project...
+2025-04-10 16:53:33.650 [p=22736, t=0x6470] General: Project deactivated
+2025-04-10 16:54:15.914 [p=22736, t=0x6470] General: ProjectEvent: 2
+2025-04-10 16:54:15.914 [p=22736, t=0x6470] General: Start closing the project...
+2025-04-10 16:54:15.914 [p=22736, t=0x6470] General: Start deactivating the project...
+2025-04-10 16:54:15.914 [p=22736, t=0x6470] CUAServer::DisconnectLicenseServices
+2025-04-10 16:54:16.192 [p=22736, t=0x6470] General: Disconnecting configuration.
